@@ -11,23 +11,23 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: "First Hotel Application",
-      description: "Full-featured hotel management system built with Django, featuring user authentication, room booking, and payment integration.",
-  image: oguaaApartmentsImg,
-      category: "django",
-      technologies: ["Python", "Django", "JavaScript", "PostgresSQL"],
-      liveUrl: "https://oguaaapartments.live/",
-  githubUrl: "https://github.com/princeamoako/oguaaapartments"
-    },
-    {
-      id: 2,
       title: "The Space Agency(still ongoing)",
       description: "An application for a fictional space agency, showcasing missions, crew members, and spacecraft using Django and Bootstrap.",
-  image: space33Img,
+      image: space33Img,
       category: "django",
       technologies: ["Django", "JavaScript", "Bootstrap", "PostgreSQL"],
       liveUrl: "https://the-space-agency-1.onrender.com/",
-  githubUrl: "https://github.com/princeamoako/the-space-agency"
+      githubUrl: "https://github.com/princeamoako/the-space-agency"
+    },
+    {
+      id: 2,
+      title: "First Hotel Application",
+      description: "Full-featured hotel management system built with Django, featuring user authentication, room booking, and payment integration.",
+      image: oguaaApartmentsImg,
+      category: "django",
+      technologies: ["Python", "Django", "JavaScript", "PostgresSQL"],
+      liveUrl: "https://oguaaapartments.live/",
+      githubUrl: "https://github.com/princeamoako/oguaaapartments"
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ const Portfolio = () => {
   image: foundImg,
       category: "javascript,django templates",
       technologies: ["JavaScript", "django templates", "Django REST", "HTML/CSS"],
-      liveUrl: "www.imanjibrilfoundation.org",
+      liveUrl: "https://www.imanjibrilfoundation.org/",
   githubUrl: "https://github.com/princeamoako/iman-jibril-foundation"
     },
   ];
