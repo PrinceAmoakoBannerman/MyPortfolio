@@ -2,20 +2,28 @@
 const Skills = () => {
   const skillCategories = [
     {
+      title: "Telecom Engineering",
+      skills: [
+        { name: "Network Planning", level: 75, color: "bg-green-700" },
+        { name: "4G/5G Technologies", level: 70, color: "bg-indigo-600" },
+        { name: "Fiber Optics", level: 65, color: "bg-yellow-700" }
+      ]
+    },
+    {
       title: "Backend Development",
       skills: [
         { name: "Python", level: 85, color: "bg-blue-500" },
         { name: "Django", level: 80, color: "bg-green-500" },
         { name: "Django Templates", level: 85, color: "bg-emerald-500" },
-        { name: "SQL/Database", level: 75, color: "bg-purple-500" }
+  { name: "PostgreSQL", level: 75, color: "bg-purple-500" }
       ]
     },
     {
       title: "Frontend Development",
       skills: [
-  { name: "JavaScript", level: 50, color: "bg-yellow-500" },
+        { name: "JavaScript", level: 50, color: "bg-yellow-500" },
         { name: "HTML/CSS", level: 85, color: "bg-orange-500" },
-  { name: "React", level: 50, color: "bg-blue-400" },
+        { name: "React", level: 50, color: "bg-blue-400" },
         { name: "Responsive Design", level: 80, color: "bg-pink-500" }
       ]
     },
@@ -23,7 +31,7 @@ const Skills = () => {
       title: "Tools & Technologies",
       skills: [
         { name: "Git/GitHub", level: 80, color: "bg-gray-600" },
-  { name: "Linux", level: 20, color: "bg-indigo-500" },
+        { name: "Linux", level: 20, color: "bg-indigo-500" },
         { name: "API Development", level: 75, color: "bg-teal-500" },
         { name: "Deployment", level: 70, color: "bg-red-500" }
       ]

@@ -56,8 +56,8 @@ const Contact = () => {
                   <Mail className="text-blue-600 mr-4" size={24} />
                   <div>
                     <p className="text-gray-800 font-semibold">Email</p>
-                    <a href="mailto:princebannerman@gmail.com" className="text-gray-600 hover:text-blue-600 transition-colors">
-                      princebannerman@gmail.com
+                    <a href="mailto:princebannerman17@gmail.com" className="text-gray-600 hover:text-blue-600 transition-colors">
+                      princebannerman17@gmail.com
                     </a>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ const Contact = () => {
                     <Github size={20} />
                   </a>
                   <a 
-                    href="https://www.linkedin.com/in/prince-bannerman-1a676326a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
+                    href="https://www.linkedin.com/in/prince-bannerman-1a676326a"
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition-colors"
