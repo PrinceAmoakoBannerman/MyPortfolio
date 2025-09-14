@@ -64,9 +64,9 @@ const Portfolio = () => {
     : projects.filter(project => project.category === activeFilter);
 
   return (
-    <section id="portfolio" className="py-20 bg-white">
-      <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
+    <section id="portfolio" className="py-10 sm:py-16 md:py-20 bg-white">
+      <div className="container mx-auto px-3 sm:px-4 md:px-6">
+  <div className="text-center mb-10 sm:mb-12 md:mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">My Portfolio</h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-8">
             A showcase of my recent projects and technical achievements
@@ -90,17 +90,17 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {filteredProjects.map((project) => (
             <div 
               key={project.id} 
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col"
             >
               <div className="relative group">
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-40 sm:h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="flex space-x-4">
@@ -122,15 +122,15 @@ const Portfolio = () => {
                 </div>
               </div>
               
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">{project.title}</h3>
-                <p className="text-gray-600 mb-4 leading-relaxed">{project.description}</p>
+              <div className="p-4 sm:p-6 flex-1 flex flex-col">
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">{project.title}</h3>
+                <p className="text-gray-600 mb-3 sm:mb-4 leading-relaxed text-sm sm:text-base">{project.description}</p>
                 
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mt-auto">
                   {project.technologies.map((tech, index) => (
                     <span 
                       key={index} 
-                      className="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full"
+                      className="bg-blue-100 text-blue-800 text-xs px-2 sm:px-3 py-1 rounded-full"
                     >
                       {tech}
                     </span>
@@ -141,7 +141,7 @@ const Portfolio = () => {
           ))}
         </div>
         
-        <div className="text-center mt-12">
+  <div className="text-center mt-8 sm:mt-10 md:mt-12">
           <p className="text-gray-600 mb-4">Want to see more of my work?</p>
           <a 
             href="https://github.com/PrinceAmoakoBannerman" 
