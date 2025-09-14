@@ -3,7 +3,7 @@ import oguaaApartmentsImg from '../assets/oguaaapartments.live.png';
 import space33Img from '../assets/space33.jpg';
 import { ExternalLink, GithubIcon } from 'lucide-react';
 import foundImg from '../assets/found.png';
-import shippingImg from '../assets/shipping.png';
+import shiptrackImg from '../assets/shiptrack.png';
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -34,7 +34,7 @@ const Portfolio = () => {
       id: 3,
       title: "ShipTrack Pro (Shipping Company)",
       description: "A shipment tracking platform with real-time updates, ETA, and secure data, built with Django and React.",
-      image: shippingImg,
+      image: shiptrackImg,
       category: "django",
       technologies: ["Django", "Django templates", "JavaScript", "HTML/CSS", "PostgreSQL"],
       liveUrl: "https://shippingcompany-4dhc.onrender.com",
