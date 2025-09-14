@@ -3,6 +3,7 @@ import oguaaApartmentsImg from '../assets/oguaaapartments.live.png';
 import space33Img from '../assets/space33.jpg';
 import { ExternalLink, GithubIcon } from 'lucide-react';
 import foundImg from '../assets/found.png';
+import shippingImg from '../assets/shipping.png';
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -31,13 +32,23 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      title: "ShipTrack Pro (Shipping Company)",
+      description: "A shipment tracking platform with real-time updates, ETA, and secure data, built with Django and React.",
+      image: shippingImg,
+      category: "django",
+      technologies: ["Django", "Django templates", "JavaScript", "HTML/CSS", "PostgreSQL"],
+      liveUrl: "https://shippingcompany-4dhc.onrender.com",
+      githubUrl: "https://github.com/PrinceAmoakoBannerman/ShippingCompany"
+    },
+    {
+      id: 4,
       title: "Iman Jibril Foundation",
       description: "A foundation website built with Django templates and JavaScript to showcase projects, accept donations, and share news updates.",
-  image: foundImg,
+      image: foundImg,
       category: "javascript,django templates",
       technologies: ["JavaScript", "django templates", "Django REST", "HTML/CSS"],
       liveUrl: "https://www.imanjibrilfoundation.org/",
-  githubUrl: "https://github.com/princeamoako/iman-jibril-foundation"
+      githubUrl: "https://github.com/princeamoako/iman-jibril-foundation"
     },
   ];
 
